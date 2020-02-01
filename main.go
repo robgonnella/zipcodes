@@ -3,7 +3,7 @@ package zipcodes
 //go:generate go run gen.go
 type Zipcodes struct {}
 
-func (z Zipcodes) New() Zipcodes {
+func New() Zipcodes {
 	return Zipcodes{}
 }
 
